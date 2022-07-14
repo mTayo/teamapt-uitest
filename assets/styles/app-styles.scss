@@ -154,7 +154,6 @@ nav{
 }
 .play-coin-container{
     position: relative;
-    // height: 420px;
     height: 50vh;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -176,6 +175,7 @@ nav{
         justify-content: center;
         height: 56px;
         z-index: 3;
+        position: relative;
         button{
             padding: 19.5px;
             background: color(OrangeShade);
@@ -197,15 +197,13 @@ nav{
     }
     .light-ray{
         width: 100%;
-       
-         top:-30%;
+        top:-30%;
         position: absolute;
         margin-bottom: 20px;
         animation: spin 5s infinite linear;
         transform-origin: center;
         transform-box: fill-box;
         z-index: -2;
-        // content: url('/icons/light_ray.svg');
         img{
             width: 100%;
             height: 100%;
@@ -225,7 +223,7 @@ nav{
              animation: animate 15s linear infinite;
             bottom: 0px;
             margin-bottom: -30px;
-            z-index: 2;
+            z-index: 1;
         }
         .star-1{
             content: url('/icons/star/star_1.svg');
