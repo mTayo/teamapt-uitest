@@ -59,33 +59,33 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className='play-coin-container'>
-          <div className='white_star_2 position-absolute mobile-hidden'/>
-          <div className='bottom_orange_star position-absolute mobile-hidden'/>
-          <div className='play-btn slide-up'>
-            <button className='d-flex'>
-              <div>Play The Game</div>
-              <img src='/icons/arrow_left.svg' alt="Arrow Left" />
-            </button>
-          </div>
-            <div className='footer slide-up'>
-              
-              <div className='coin-pile '>
-                <img src='/images/coin_pot.png' alt="Coin pot" />
-              </div>
-              <div className='floating-coin-left position-absolute' />
-              <div className='floating-coin-right position-absolute' />
-              
-              <div className='flying-star star-1'/>
-              <div className='flying-star star-2'/>
-              <div className='flying-star star-3'/>
-              <div className='flying-star star-4'/>
-              <div className='flying-star star-5'/>
-              <div className='flying-star star-6'/>
+            <div className='white_star_2 position-absolute mobile-hidden'/>
+            <div className='bottom_orange_star position-absolute mobile-hidden'/>
+            <div className='play-btn slide-up'>
+              <button className='d-flex'>
+                <div>Play The Game</div>
+                <img src='/icons/arrow_left.svg' alt="Arrow Left" />
+              </button>
             </div>
-            <div className='light-ray'>
-                <img src='/icons/light_ray.svg' alt="Light ray" />
+              <div className='footer slide-up'>
+                
+                <div className='coin-pile '>
+                  <img src='/images/coin_pot.png' alt="Coin pot" />
+                </div>
+                <div className='floating-coin-left position-absolute' />
+                <div className='floating-coin-right position-absolute' />
+                
+                <div className='flying-star star-1'/>
+                <div className='flying-star star-2'/>
+                <div className='flying-star star-3'/>
+                <div className='flying-star star-4'/>
+                <div className='flying-star star-5'/>
+                <div className='flying-star star-6'/>
               </div>
-          </div>
+              <div className='light-ray'>
+                  <img src='/icons/light_ray.svg' alt="Light ray" />
+                </div>
+            </div>
         </main>
       </>
   )
