@@ -273,6 +273,13 @@ nav{
     }
 }
 // Responsive
+@media (max-width: 1024px){
+    .play-coin-container{
+        .light-ray{
+            top:-5%;
+        }
+    }
+}
 @media (max-width: 765px){
     .play-coin-container{
         .light-ray{
