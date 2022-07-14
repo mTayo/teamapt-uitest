@@ -55,7 +55,7 @@ const Home: NextPage = () => {
               <div className='text-bulb-container'>
                 <img src='/icons/bulb.svg' alt="Bulb" />
               </div>
-              Think well before you guess. You have only 2 attempts per day and even after you wi, you can come back the next day to try for another jackpot!
+              Think well before you guess. You have only 2 attempts per day and even after you win, you can come back the next day to try for another jackpot!
             </div>
           </div>
           <div className='play-coin-container'>
