@@ -5,7 +5,7 @@
     font-family: $global-font-family;
 }
 body{
-    background-image: url('/images/background.png'),linear-gradient(180deg, #121214 -39.34%, rgba(18, 18, 20, 0) 72.48%);
+    background-image: url('/images/background.jpg'),linear-gradient(180deg, #121214 -39.34%, rgba(18, 18, 20, 0) 72.48%);
     background-repeat: no-repeat;
     background-size: cover;
     color: color(white);
@@ -62,10 +62,6 @@ nav{
     margin-top: 53px;
     position: relative;
     overflow: hidden;
-    // -webkit-animation-delay: 1s;
-    //  -moz-animation-delay: 1s;
-    //    -o-animation-delay: 1s;
-    //       animation-delay: 1s;
     .green_star{
         content: url('/icons/green_star.svg');
         left: 15%;
@@ -86,6 +82,10 @@ nav{
     color: color(white);
     position: relative;
     opacity: 0;
+    -webkit-animation-delay: 300ms;
+    -moz-animation-delay: 300ms;
+    -o-animation-delay: 300ms;
+    animation-delay: 300ms;
     .unlock{
         font-weight: 300;
     }
@@ -105,6 +105,11 @@ nav{
     text-align: center;
     letter-spacing: -0.06em;
     color: color(white);
+    opacity: 0;
+    -webkit-animation-delay: 250ms;
+    -moz-animation-delay: 250ms;
+    -o-animation-delay: 250ms;
+    animation-delay: 250ms;
     .bold{
         font-weight: $font-weight-700;
     }
@@ -228,7 +233,7 @@ nav{
         }
         .star-2{
             content: url('/icons/star/star_2.svg');
-            left: 10%;
+            left: 35%;
             animation-delay: 11s;
         }
         .star-3{
