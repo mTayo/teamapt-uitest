@@ -149,7 +149,8 @@ nav{
 }
 .play-coin-container{
     position: relative;
-    height: 420px;
+    // height: 420px;
+    height: 50vh;
     overflow-y: hidden;
     overflow-x: hidden;
     position: relative;
@@ -355,20 +356,9 @@ nav{
             margin-right: -30px;
             width: 100px;
         }
-        height: 320px;
+        height: 80vh;
     }
 }
-
-// // Responsive
-// @media (max-width: 1024px){
-//     .play-coin-container{
-//         overflow-x: hidden;
-//         .light-ray{
-//             margin-top: -120px;
-            
-//         }
-//     }
-// }
 
 @keyframes float {
     0% {
